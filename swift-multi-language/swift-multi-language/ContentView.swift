@@ -14,9 +14,9 @@ struct ContentView: View {
     @State private var selectedLanguage = 0
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack {
             // days of week
-            VStack(alignment: .leading) {
+            VStack {
                 Text("Days of Week")
                     .bold()
                     .font(Font.system(size: 22))
@@ -26,13 +26,16 @@ struct ContentView: View {
             Spacer()
             
             // language picker
-            VStack(alignment: .leading) {
+            VStack {
                 Text("Select Language")
                     .bold()
                     .font(Font.system(size: 22))
                 Picker(selection: $selectedLanguage, label: Text("Select Language")) {
                     ForEach(0 ..< languageList.count) {
-                        Text(self.languageList[$0].name)
+                        PickerItem(
+                            flag: self.languageList[$0].flag,
+                            name: self.languageList[$0].name
+                        )
                     }
                 }
                 .labelsHidden()
@@ -45,5 +48,23 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+
+private struct PickerItem: View {
+    let flag: String
+    let name: String
+    var body: some View {
+        HStack(alignment: .center) {
+            Image(flag)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 30, height: 30, alignment: .leading)
+                .padding(.leading, 50)
+            Spacer()
+            Text(name)
+                .padding(.trailing, 60)
+        }
     }
 }
