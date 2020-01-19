@@ -15,6 +15,8 @@
 		4A0149D023CD7CE7000AEB2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0149CE23CD7CE7000AEB2E /* LaunchScreen.storyboard */; };
 		4A0149DB23CD7CE7000AEB2E /* swift_multi_languageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0149DA23CD7CE7000AEB2E /* swift_multi_languageTests.swift */; };
 		4A0149E623CD7CE7000AEB2E /* swift_multi_languageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0149E523CD7CE7000AEB2E /* swift_multi_languageUITests.swift */; };
+		4AEBC58223D4D4BD007279DB /* ContainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEBC58123D4D4BD007279DB /* ContainViewModel.swift */; };
+		4AEBC58423D4D53D007279DB /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEBC58323D4D53D007279DB /* Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4A0149E123CD7CE7000AEB2E /* swift-multi-languageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-multi-languageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0149E523CD7CE7000AEB2E /* swift_multi_languageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_multi_languageUITests.swift; sourceTree = "<group>"; };
 		4A0149E723CD7CE7000AEB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEBC58123D4D4BD007279DB /* ContainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainViewModel.swift; sourceTree = "<group>"; };
+		4AEBC58323D4D53D007279DB /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				4A0149C323CD7CE5000AEB2E /* AppDelegate.swift */,
 				4A0149C523CD7CE5000AEB2E /* SceneDelegate.swift */,
 				4A0149C723CD7CE5000AEB2E /* ContentView.swift */,
+				4AEBC58323D4D53D007279DB /* Language.swift */,
+				4AEBC58123D4D4BD007279DB /* ContainViewModel.swift */,
 				4A0149C923CD7CE7000AEB2E /* Assets.xcassets */,
 				4A0149CE23CD7CE7000AEB2E /* LaunchScreen.storyboard */,
 				4A0149D123CD7CE7000AEB2E /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0149C423CD7CE5000AEB2E /* AppDelegate.swift in Sources */,
+				4AEBC58423D4D53D007279DB /* Language.swift in Sources */,
+				4AEBC58223D4D4BD007279DB /* ContainViewModel.swift in Sources */,
 				4A0149C623CD7CE5000AEB2E /* SceneDelegate.swift in Sources */,
 				4A0149C823CD7CE5000AEB2E /* ContentView.swift in Sources */,
 			);
