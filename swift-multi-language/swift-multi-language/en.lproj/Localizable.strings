@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  swift-multi-language
+
+  Created by Huy Duong on 1/19/20.
+  Copyright © 2020 Huy Duong. All rights reserved.
+*/
+
+"days_of_week" = "Days of Week";
+"select_language" = "Select Language";
+
+"monday" = "Monday";
+"tuesday" = "Tuesday";
+"wednesday" = "Wednesday";
+"thursday" = "Thursday";
+"friday" = "Friday";
+"saturday" = "Saturday";
+"sunday" = "Sunday";
+
+"days" = "• %s\n• %s\n• %s\n• %s\n• %s\n• %s\n• %s";

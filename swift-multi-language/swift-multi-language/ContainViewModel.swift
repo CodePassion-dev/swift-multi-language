@@ -15,7 +15,7 @@ public class ContainViewModel {
             Language(flag: "cn", name: "Chinese", code: "zh"),
             Language(flag: "us", name: "English", code: "en"),
             Language(flag: "fr", name: "French", code: "fr"),
-            Language(flag: "in", name: "Hindi", code: "hi"),
+            Language(flag: "in", name: "Hindi", code: "hi-IN"),
             Language(flag: "np", name: "Nepali", code: "ne"),
             Language(flag: "ir", name: "Persian", code: "fa"),
             Language(flag: "vn", name: "Vietnamese", code: "vi")
