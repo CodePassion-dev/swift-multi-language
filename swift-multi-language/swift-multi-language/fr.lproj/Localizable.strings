@@ -16,5 +16,3 @@
 "friday" = "Vendredi";
 "saturday" = "Samedi";
 "sunday" = "Dimanche";
-
-"days" = "• %s\n• %s\n• %s\n• %s\n• %s\n• %s\n• %s";
