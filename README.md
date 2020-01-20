@@ -10,12 +10,13 @@
 ## Features
 
 - Swift programming language support.
+- SwiftUI user interface.
 - Changing application language programmatically.
 
 ## Requirements
 
-- Xcode 11 or above.
 - iOS 13 or above.
+- Xcode 11 or above.
 
 ## Code
 
@@ -33,4 +34,4 @@ daysText = LocalizationUtils.sharedInstance.localizedDays()
 
 ## License
 
-kotlin-multi-language is distributed under the MIT license. See [LICENSE](https://github.com/duonghominhhuy/swift-multi-language/blob/master/LICENSE) for details.
+swift-multi-language is distributed under the MIT license. See [LICENSE](https://github.com/duonghominhhuy/swift-multi-language/blob/master/LICENSE) for details.
