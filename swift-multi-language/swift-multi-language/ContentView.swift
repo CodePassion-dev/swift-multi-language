@@ -52,7 +52,6 @@ struct ContentView: View {
     func switchLanguage(at index: Int) {
         let languageCode = languageList[index].code
         LocalizationUtils.sharedInstance.setLanguage(languageCode: languageCode)
-        
         titleLabelText = LocalizationUtils.sharedInstance.localizedStringForKey(key: "days_of_week", comment: "")
         pickerLabelText = LocalizationUtils.sharedInstance.localizedStringForKey(key: "select_language", comment: "")
         daysText = LocalizationUtils.sharedInstance.localizedDays()
