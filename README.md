@@ -30,7 +30,10 @@ daysText = LocalizationUtils.sharedInstance.localizedDays()
 
 ## Find me on:
 
-- Twitter [@duonghominhhuy](https://twitter.com/duonghominhhuy)
+- GitHub[/duonghominhhuy](https://github.com/duonghominhhuy)
+- Twitter[/duonghominhhuy](https://twitter.com/duonghominhhuy)
+- Website[/codepassion.dev](https://codepassion.dev)
+- Facebook[/codepassion.dev](https://www.facebook.com/codepassion.dev)
 
 ## License
 
